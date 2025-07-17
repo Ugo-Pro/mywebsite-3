@@ -1,0 +1,283 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.sect{
+	margin-top: 150px;
+}
+
+	:root{
+	--brand-grad: linear-gradient(135deg,#ff007f 0%,#ff6a00 25%,#ffca00 50%,#7ed321 75%,#00aaff 100%);
+  
+  --bg-color: #15181c;
+  --card-bg: #1d2228;
+  --sidebar-bg: #1a1e24;
+  --blue-accent: #4e98de;
+  --green-accent: #4ede7c;
+  --yellow-accent: #dede4e;
+  --purple-accent: #a24ede;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --hover-bg: rgba(255, 255, 255, 0.05);
+
+	 --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --bg-danger:  #dd1111;
+  --bg-dark: #0a0a0a;
+  --bg-card: rgba(255, 255, 255, 0.1);
+  --border-color: rgba(255, 255, 255, 0.2);
+}
+
+.jumbotron{
+	 background: linear-gradient(to right, rgb(1,1,1,1) 10%, rgba(1,1,1,0.5) 51%, rgba(1,1,1,0.2) 100%), url('signal-1.jpg') no-repeat center;
+    /* background: url(forex_IMG.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-2{
+	 background: linear-gradient(to right, rgb(1,1,1,1) 10%, rgba(1,1,1,0.5) 51%, rgba(1,1,1,0.2) 100%), url('signal-1.jpg') no-repeat center;
+    /* background: url(forex_IMG.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+ 
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background: var(--brand-grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+ h2, h3, h4, h5, h6 ,li{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background: linear-gradient(135deg, #f09a9a 0%, var(--primary) 100%);
+    /* background: var(--brand-grad); */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+}
+
+.svg-icon {
+	width: 1.5em;
+	height: 1.5em;
+	font-weight: 400;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+	fill: #eee;
+}
+
+.svg-icon circle {
+	stroke: #eee;
+	stroke-width: 1;
+}
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: hsl(0, 20%, 50%);
+}
+
+
+
+    [class*="col-"] {
+        float: right;
+        padding: 15px;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* callout text */
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+/* ends */
+/* sideby */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column1 {
+    width: 100%;
+  }
+}
+/* ends */
+
+/* Blog Image */
+.blog-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.blog-image img:hover {
+    transform: scale(1.05);
+}
+
+.blog-image .date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+/* ends */
+.footer {
+  background-color: #ecc308;
+  color: #0c0c0c;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* SVG SYNTAX */
+
+.svg-icon {
+	width: 1.5em;
+	height: 1.5em;
+	font-weight: 400;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+	fill: #f1f1f1;
+	/* fill: #6a1b9a; */
+}
+
+
+.svg-icon circle {
+	stroke: #f1f1f1;
+	/* stroke: #6a1b9a; */
+	stroke-width: 1;
+}
+.svg-icon2 circle {
+	stroke: #09dd2d;
+	/* stroke: #6a1b9a; */
+	stroke-width: 1;
+}
+
+/* SVG ENDS */
